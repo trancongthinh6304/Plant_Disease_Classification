@@ -22,6 +22,7 @@ The task is to classify the disease on leaves using simple classification method
 |Apple|Late Bright|2499|
 |Apple|Yellow Leaf Curl Virus|3209|
 |Apple|Septoria Leaf Spot|2362|
+
 Datasets' Link:
 
 - [Grapes](https://drive.google.com/file/d/1QYlqQSzT5QNDUw00Y_RcMLRpRaGc-Qn1/view?usp=sharing)
