@@ -14,13 +14,14 @@ Currently, we are training on 4 diseases on tomatoes leaves, and 3 diseases on g
 The task is to classify the disease on leaves using simple classification method: Transered Learning.
 #### Data
 - Apple Dataset:
-| label | numbers of images |
-| ----  | ----------------- |
-| Healthy |  2183  |
-| Bacterial Spot |  2127  |
-| Late Bright  |  2499  |
-| Yellow Leaf Curl Virus |  3209  |
-| Septoria Leaf Spot |  2362  |
+
+|Type of plant|Label|Numbers of images|
+|---|---|---|
+|Apple|Healthy|2183|
+|Apple|Bacterial Spot|2127|
+|Apple|Late Bright|2499|
+|Apple|Yellow Leaf Curl Virus|3209|
+|Apple|Septoria Leaf Spot|2362|
 Datasets' Link:
 
 - [Grapes](https://drive.google.com/file/d/1QYlqQSzT5QNDUw00Y_RcMLRpRaGc-Qn1/view?usp=sharing)
