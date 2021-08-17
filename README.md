@@ -11,7 +11,7 @@ Currently, we are training on 4 diseases on tomatoes leaves, and 3 diseases on g
 
 ### Task definition and Data
 #### Task
-The task is to classify the disease on leaves using simple classification method: Transered Learning.
+The task is to classify the disease on leaves using simple classification method: Tranfered Learning.
 #### Data
 - Apple Dataset:
 
@@ -34,7 +34,7 @@ Datasets' Link:
 
 ## About Dataset:
 
-- Images are resized to 256x256 and are normalized (by ./255 or to zero-mean depending on the pretrained model)
+- Images are resized to 256x256. 
 
 ## Evaluation Metrics:
 - This dataset is unbalanced - that means the normal metrics (accuracy) is not approriate.
