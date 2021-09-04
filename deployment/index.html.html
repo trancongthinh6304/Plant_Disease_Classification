@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='vi'>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>DOCUMENT</title>
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+
+<body>
+    <div class="proto-container">
+        <div class="proto"></div>
+        <div class="proto"></div>
+        <div class="proto"></div>
+        <div class="proto"></div>
+    </div>
+
+    <div class="container">
+        <div class="inner">
+            <div class="left">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/logo_copy.svg" alt="CompleteUI Logo" class="logo">
+
+                <div class="content">
+                    <h1>Phát hiện <span>bệnh của cây trồng tại nhà</span></h1>
+
+                    <p>Made for Visef</p>
+                </div>
+            </div>
+            <div class="right">
+                <p>Tải ảnh lá vào đây: </p>
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    Select image to upload:
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    <input type="submit" value="Tải ảnh lên" name="submit">
+                </form>
+                <div class="attention">
+                    <img src="img/Leaves.JPG" alt="Avatar" class="me">
+                    <img src="img/arrow.svg" alt="Arrow pointing to email form" class="arrow">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
